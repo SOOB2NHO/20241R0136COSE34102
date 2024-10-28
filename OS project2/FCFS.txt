@@ -1,0 +1,325 @@
+hosubin02@hosubin02-VirtualBox:~/project2$ ./run
+1
+hosubin02@hosubin02-VirtualBox:~/project2$ 
+Process A : I will use CPU by 7s. 
+
+Process B : I will use CPU by 5s. 
+
+Process C : I will use CPU by 3s. 
+
+Process A : Finish! My response time is 0s and My total wait time is 0s. 
+Process B : Finish! My response time is 6s and My total wait time is 6s. 
+Process C : Finish! My response time is 10s and My total wait time is 10s. 
+hosubin02@hosubin02-VirtualBox:~/project2$ dmesg
+[  224.639223] Working: A
+[  224.748526] Working: A
+[  224.860684] Working: A
+[  224.966803] Working: A
+[  225.074164] Working: A
+[  225.175289] Working: A
+[  225.299422] Working: A
+[  225.405445] Working: A
+[  225.524303] Working: A
+[  225.629401] Working: A
+[  225.638923] Working Denied: B
+[  225.730553] Working: A
+[  225.739272] Working Denied: B
+[  225.838948] Working: A
+[  225.840016] Working Denied: B
+[  225.942320] Working Denied: B
+[  225.948720] Working: A
+[  226.043339] Working Denied: B
+[  226.066069] Working: A
+[  226.145437] Working Denied: B
+[  226.166806] Working: A
+[  226.245923] Working Denied: B
+[  226.267133] Working: A
+[  226.346223] Working Denied: B
+[  226.367422] Working: A
+[  226.451048] Working Denied: B
+[  226.467593] Working: A
+[  226.551686] Working Denied: B
+[  226.569274] Working: A
+[  226.642817] Working Denied: C
+[  226.653009] Working Denied: B
+[  226.670021] Working: A
+[  226.743257] Working Denied: C
+[  226.753409] Working Denied: B
+[  226.770392] Working: A
+[  226.843453] Working Denied: C
+[  226.853747] Working Denied: B
+[  226.870848] Working: A
+[  226.943662] Working Denied: C
+[  226.954282] Working Denied: B
+[  226.972765] Working: A
+[  227.044117] Working Denied: C
+[  227.055498] Working Denied: B
+[  227.075127] Working: A
+[  227.156672] Working Denied: B
+[  227.163251] Working Denied: C
+[  227.175298] Working: A
+[  227.256886] Working Denied: B
+[  227.270112] Working Denied: C
+[  227.275554] Working: A
+[  227.358354] Working Denied: B
+[  227.376109] Working: A
+[  227.382057] Working Denied: C
+[  227.458965] Working Denied: B
+[  227.478538] Working: A
+[  227.492965] Working Denied: C
+[  227.559368] Working Denied: B
+[  227.579379] Working: A
+[  227.594121] Working Denied: C
+[  227.660001] Working Denied: B
+[  227.680821] Working: A
+[  227.710247] Working Denied: C
+[  227.763582] Working Denied: B
+[  227.782002] Working: A
+[  227.824322] Working Denied: C
+[  227.867687] Working Denied: B
+[  227.882339] Working: A
+[  227.930594] Working Denied: C
+[  227.968782] Working Denied: B
+[  227.982942] Working: A
+[  228.060631] Working Denied: C
+[  228.069041] Working Denied: B
+[  228.087586] Working: A
+[  228.170237] Working Denied: B
+[  228.177963] Working Denied: C
+[  228.188713] Working: A
+[  228.270815] Working Denied: B
+[  228.278137] Working Denied: C
+[  228.289350] Working: A
+[  228.370930] Working Denied: B
+[  228.387744] Working Denied: C
+[  228.389661] Working: A
+[  228.471359] Working Denied: B
+[  228.488454] Working Denied: C
+[  228.489897] Working: A
+[  228.572404] Working Denied: B
+[  228.589495] Working Denied: C
+[  228.590394] Working: A
+[  228.673010] Working Denied: B
+[  228.689631] Working Denied: C
+[  228.690697] Working: A
+[  228.774113] Working Denied: B
+[  228.789886] Working Denied: C
+[  228.791756] Working: A
+[  228.876225] Working Denied: B
+[  228.892777] Working: A
+[  228.909006] Working Denied: C
+[  228.976418] Working Denied: B
+[  228.993316] Working: A
+[  229.033743] Working Denied: C
+[  229.077699] Working Denied: B
+[  229.093494] Working: A
+[  229.161993] Working Denied: C
+[  229.178104] Working Denied: B
+[  229.193837] Working: A
+[  229.266115] Working Denied: C
+[  229.278350] Working Denied: B
+[  229.294063] Working: A
+[  229.379272] Working Denied: B
+[  229.382238] Working Denied: C
+[  229.394560] Working: A
+[  229.483329] Working Denied: B
+[  229.489715] Working Denied: C
+[  229.495539] Working: A
+[  229.586558] Working Denied: B
+[  229.596038] Working: A
+[  229.604263] Working Denied: C
+[  229.686727] Working Denied: B
+[  229.696953] Working: A
+[  229.713302] Working Denied: C
+[  229.787333] Working Denied: B
+[  229.797548] Working: A
+[  229.813486] Working Denied: C
+[  229.892259] Working Denied: B
+[  229.902785] Working: A
+[  229.923139] Working Denied: C
+[  229.992940] Working Denied: B
+[  230.003029] Working: A
+[  230.024195] Working Denied: C
+[  230.096074] Working Denied: B
+[  230.106361] Working: A
+[  230.129221] Working Denied: C
+[  230.196284] Working Denied: B
+[  230.206538] Working: A
+[  230.230195] Working Denied: C
+[  230.296590] Working Denied: B
+[  230.306763] Working: A
+[  230.330388] Working Denied: C
+[  230.398688] Working Denied: B
+[  230.408008] Working: A
+[  230.432966] Working Denied: C
+[  230.499350] Working Denied: B
+[  230.508613] Working: A
+[  230.533128] Working Denied: C
+[  230.599631] Working Denied: B
+[  230.608945] Working: A
+[  230.633531] Working Denied: C
+[  230.699991] Working Denied: B
+[  230.709222] Working: A
+[  230.733885] Working Denied: C
+[  230.801145] Working Denied: B
+[  230.810396] Working: A
+[  230.836044] Working Denied: C
+[  230.902022] Working Denied: B
+[  230.913974] Working: A
+[  230.943593] Working Denied: C
+[  231.004527] Working Denied: B
+[  231.014808] Working: A
+[  231.050266] Working Denied: C
+[  231.105492] Working Denied: B
+[  231.115556] Working: A
+[  231.161241] Working Denied: C
+[  231.206005] Working Denied: B
+[  231.216002] Working: A
+[  231.261763] Working Denied: C
+[  231.307291] Working Denied: B
+[  231.317575] Working: A
+[  231.363768] Working Denied: C
+[  231.407861] Working Denied: B
+[  231.418072] Working: A
+[  231.464818] Working Denied: C
+[  231.508147] Working Denied: B
+[  231.518240] Working: A
+[  231.566179] Working Denied: C
+[  231.609440] Working Denied: B
+[  231.618517] Working: A
+[  231.666726] Working Denied: C
+[  231.711385] Working Denied: B
+[  231.719583] Working: A
+[  231.767855] Working Denied: C
+[  231.812495] Working Denied: B
+[  231.820220] Process Finished: A
+[  231.868081] Working Denied: C
+[  231.913275] Working: B
+[  231.968384] Working Denied: C
+[  232.013578] Working: B
+[  232.068995] Working Denied: C
+[  232.113749] Working: B
+[  232.170153] Working Denied: C
+[  232.215112] Working: B
+[  232.270443] Working Denied: C
+[  232.315672] Working: B
+[  232.374593] Working Denied: C
+[  232.416715] Working: B
+[  232.483379] Working Denied: C
+[  232.517312] Working: B
+[  232.584350] Working Denied: C
+[  232.621692] Working: B
+[  232.687727] Working Denied: C
+[  232.721901] Working: B
+[  232.796112] Working Denied: C
+[  232.822547] Working: B
+[  232.914409] Working Denied: C
+[  232.922836] Working: B
+[  233.014856] Working Denied: C
+[  233.024120] Working: B
+[  233.124425] Working: B
+[  233.135316] Working Denied: C
+[  233.225402] Working: B
+[  233.235713] Working Denied: C
+[  233.325832] Working: B
+[  233.355768] Working Denied: C
+[  233.426982] Working: B
+[  233.471238] Working Denied: C
+[  233.529233] Working: B
+[  233.584521] Working Denied: C
+[  233.630370] Working: B
+[  233.684699] Working Denied: C
+[  233.730839] Working: B
+[  233.788558] Working Denied: C
+[  233.831721] Working: B
+[  233.888840] Working Denied: C
+[  233.932968] Working: B
+[  233.989503] Working Denied: C
+[  234.033258] Working: B
+[  234.104601] Working Denied: C
+[  234.134048] Working: B
+[  234.205267] Working Denied: C
+[  234.234257] Working: B
+[  234.313247] Working Denied: C
+[  234.334651] Working: B
+[  234.426428] Working Denied: C
+[  234.434868] Working: B
+[  234.536395] Working: B
+[  234.552151] Working Denied: C
+[  234.637481] Working: B
+[  234.655390] Working Denied: C
+[  234.737907] Working: B
+[  234.756366] Working Denied: C
+[  234.838984] Working: B
+[  234.857602] Working Denied: C
+[  234.943043] Working: B
+[  234.961745] Working Denied: C
+[  235.048100] Working: B
+[  235.065958] Working Denied: C
+[  235.148992] Working: B
+[  235.171646] Working Denied: C
+[  235.250089] Working: B
+[  235.274653] Working Denied: C
+[  235.351033] Working: B
+[  235.377950] Working Denied: C
+[  235.451943] Working: B
+[  235.478204] Working Denied: C
+[  235.553429] Working: B
+[  235.580400] Working Denied: C
+[  235.655486] Working: B
+[  235.681048] Working Denied: C
+[  235.755922] Working: B
+[  235.781535] Working Denied: C
+[  235.856217] Working: B
+[  235.913615] Working Denied: C
+[  235.957661] Working: B
+[  236.028783] Working Denied: C
+[  236.057997] Working: B
+[  236.131107] Working Denied: C
+[  236.159117] Working: B
+[  236.231335] Working Denied: C
+[  236.259707] Working: B
+[  236.337381] Working Denied: C
+[  236.359952] Working: B
+[  236.450973] Working Denied: C
+[  236.460333] Working: B
+[  236.561517] Working: B
+[  236.568463] Working Denied: C
+[  236.662336] Working: B
+[  236.682899] Working Denied: C
+[  236.762655] Working: B
+[  236.790623] Working Denied: C
+[  236.863831] Working: B
+[  236.903177] Working Denied: C
+[  236.963999] Process Finished: B
+[  237.003857] Working: C
+[  237.116218] Working: C
+[  237.216470] Working: C
+[  237.319507] Working: C
+[  237.420700] Working: C
+[  237.544464] Working: C
+[  237.647643] Working: C
+[  237.752749] Working: C
+[  237.864028] Working: C
+[  237.964352] Working: C
+[  238.071133] Working: C
+[  238.184682] Working: C
+[  238.284824] Working: C
+[  238.396320] Working: C
+[  238.502874] Working: C
+[  238.614425] Working: C
+[  238.715055] Working: C
+[  238.815624] Working: C
+[  238.937472] Working: C
+[  239.047794] Working: C
+[  239.169103] Working: C
+[  239.275736] Working: C
+[  239.388167] Working: C
+[  239.488385] Working: C
+[  239.605388] Working: C
+[  239.705806] Working: C
+[  239.808019] Working: C
+[  239.923385] Working: C
+[  240.023582] Working: C
+[  240.138094] Working: C
+[  240.239033] Process Finished: C
